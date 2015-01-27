@@ -1,0 +1,1144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   'browserify',
+1 verbose cli   'gulp-browserify',
+1 verbose cli   'gulp-concat',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'literalify',
+1 verbose cli   'gulp-scss',
+1 verbose cli   'gulp-sass-lint',
+1 verbose cli   'gulp-minify-css' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp',
+7 verbose parsed url   path: 'gulp',
+7 verbose parsed url   href: 'gulp' }
+8 verbose cache add [ 'browserify', null ]
+9 verbose cache add name=undefined spec="browserify" args=["browserify",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'browserify',
+10 verbose parsed url   path: 'browserify',
+10 verbose parsed url   href: 'browserify' }
+11 verbose cache add [ 'gulp-browserify', null ]
+12 verbose cache add name=undefined spec="gulp-browserify" args=["gulp-browserify",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp-browserify',
+13 verbose parsed url   path: 'gulp-browserify',
+13 verbose parsed url   href: 'gulp-browserify' }
+14 verbose cache add [ 'gulp-concat', null ]
+15 verbose cache add name=undefined spec="gulp-concat" args=["gulp-concat",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'gulp-concat',
+16 verbose parsed url   path: 'gulp-concat',
+16 verbose parsed url   href: 'gulp-concat' }
+17 verbose cache add [ 'gulp-uglify', null ]
+18 verbose cache add name=undefined spec="gulp-uglify" args=["gulp-uglify",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-uglify',
+19 verbose parsed url   path: 'gulp-uglify',
+19 verbose parsed url   href: 'gulp-uglify' }
+20 verbose cache add [ 'literalify', null ]
+21 verbose cache add name=undefined spec="literalify" args=["literalify",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'literalify',
+22 verbose parsed url   path: 'literalify',
+22 verbose parsed url   href: 'literalify' }
+23 verbose cache add [ 'gulp-scss', null ]
+24 verbose cache add name=undefined spec="gulp-scss" args=["gulp-scss",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'gulp-scss',
+25 verbose parsed url   path: 'gulp-scss',
+25 verbose parsed url   href: 'gulp-scss' }
+26 verbose cache add [ 'gulp-sass-lint', null ]
+27 verbose cache add name=undefined spec="gulp-sass-lint" args=["gulp-sass-lint",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'gulp-sass-lint',
+28 verbose parsed url   path: 'gulp-sass-lint',
+28 verbose parsed url   href: 'gulp-sass-lint' }
+29 verbose cache add [ 'gulp-minify-css', null ]
+30 verbose cache add name=undefined spec="gulp-minify-css" args=["gulp-minify-css",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'gulp-minify-css',
+31 verbose parsed url   path: 'gulp-minify-css',
+31 verbose parsed url   href: 'gulp-minify-css' }
+32 silly lockFile 9750c68d-gulp gulp
+33 verbose lock gulp /home/jack/.npm/9750c68d-gulp.lock
+34 silly lockFile 84c1c54e-browserify browserify
+35 verbose lock browserify /home/jack/.npm/84c1c54e-browserify.lock
+36 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+37 verbose lock gulp-browserify /home/jack/.npm/f81d5b93-gulp-browserify.lock
+38 silly lockFile a9575072-gulp-concat gulp-concat
+39 verbose lock gulp-concat /home/jack/.npm/a9575072-gulp-concat.lock
+40 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+41 verbose lock gulp-uglify /home/jack/.npm/15fab96b-gulp-uglify.lock
+42 silly lockFile 9081c12b-literalify literalify
+43 verbose lock literalify /home/jack/.npm/9081c12b-literalify.lock
+44 silly lockFile 0abf8cbf-gulp-scss gulp-scss
+45 verbose lock gulp-scss /home/jack/.npm/0abf8cbf-gulp-scss.lock
+46 silly lockFile 608e5df9-gulp-sass-lint gulp-sass-lint
+47 verbose lock gulp-sass-lint /home/jack/.npm/608e5df9-gulp-sass-lint.lock
+48 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+49 verbose lock gulp-minify-css /home/jack/.npm/6bf44555-gulp-minify-css.lock
+50 silly lockFile 9750c68d-gulp gulp
+51 silly lockFile 9750c68d-gulp gulp
+52 silly lockFile 84c1c54e-browserify browserify
+53 silly lockFile 84c1c54e-browserify browserify
+54 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+55 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+56 silly lockFile 9081c12b-literalify literalify
+57 silly lockFile 9081c12b-literalify literalify
+58 silly lockFile 0abf8cbf-gulp-scss gulp-scss
+59 silly lockFile 0abf8cbf-gulp-scss gulp-scss
+60 silly lockFile 608e5df9-gulp-sass-lint gulp-sass-lint
+61 silly lockFile 608e5df9-gulp-sass-lint gulp-sass-lint
+62 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+63 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+64 verbose addNamed [ 'gulp', '' ]
+65 verbose addNamed [ null, '*' ]
+66 silly lockFile 72f4391e-gulp gulp@
+67 verbose lock gulp@ /home/jack/.npm/72f4391e-gulp.lock
+68 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+69 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+70 silly lockFile a9575072-gulp-concat gulp-concat
+71 silly lockFile a9575072-gulp-concat gulp-concat
+72 verbose addNamed [ 'browserify', '' ]
+73 verbose addNamed [ null, '*' ]
+74 silly lockFile 80140245-browserify browserify@
+75 verbose lock browserify@ /home/jack/.npm/80140245-browserify.lock
+76 verbose addNamed [ 'gulp-uglify', '' ]
+77 verbose addNamed [ null, '*' ]
+78 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+79 verbose lock gulp-uglify@ /home/jack/.npm/044a9113-gulp-uglify.lock
+80 verbose addNamed [ 'literalify', '' ]
+81 verbose addNamed [ null, '*' ]
+82 silly lockFile 86d2ac29-literalify literalify@
+83 verbose lock literalify@ /home/jack/.npm/86d2ac29-literalify.lock
+84 verbose addNamed [ 'gulp-scss', '' ]
+85 verbose addNamed [ null, '*' ]
+86 silly lockFile 63dd1445-gulp-scss gulp-scss@
+87 verbose lock gulp-scss@ /home/jack/.npm/63dd1445-gulp-scss.lock
+88 verbose addNamed [ 'gulp-sass-lint', '' ]
+89 verbose addNamed [ null, '*' ]
+90 silly lockFile 358a3466-gulp-sass-lint gulp-sass-lint@
+91 verbose lock gulp-sass-lint@ /home/jack/.npm/358a3466-gulp-sass-lint.lock
+92 verbose addNamed [ 'gulp-minify-css', '' ]
+93 verbose addNamed [ null, '*' ]
+94 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+95 verbose lock gulp-minify-css@ /home/jack/.npm/37de6304-gulp-minify-css.lock
+96 verbose addNamed [ 'gulp-browserify', '' ]
+97 verbose addNamed [ null, '*' ]
+98 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+99 verbose lock gulp-browserify@ /home/jack/.npm/24eaa615-gulp-browserify.lock
+100 verbose addNamed [ 'gulp-concat', '' ]
+101 verbose addNamed [ null, '*' ]
+102 silly lockFile 190d832a-gulp-concat gulp-concat@
+103 verbose lock gulp-concat@ /home/jack/.npm/190d832a-gulp-concat.lock
+104 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+105 silly addNameRange { name: 'browserify', range: '*', hasData: false }
+106 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+107 silly addNameRange { name: 'literalify', range: '*', hasData: false }
+108 silly addNameRange { name: 'gulp-scss', range: '*', hasData: false }
+109 silly addNameRange { name: 'gulp-sass-lint', range: '*', hasData: false }
+110 silly addNameRange { name: 'gulp-minify-css', range: '*', hasData: false }
+111 silly addNameRange { name: 'gulp-browserify', range: '*', hasData: false }
+112 silly addNameRange { name: 'gulp-concat', range: '*', hasData: false }
+113 verbose request where is /gulp-sass-lint
+114 verbose request registry https://registry.npmjs.org/
+115 verbose request id a28ee307df625169
+116 verbose url raw /gulp-sass-lint
+117 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass-lint' ]
+118 verbose url resolved https://registry.npmjs.org/gulp-sass-lint
+119 verbose request where is https://registry.npmjs.org/gulp-sass-lint
+120 info trying registry request attempt 1 at 20:13:48
+121 http GET https://registry.npmjs.org/gulp-sass-lint
+122 verbose request where is /gulp-scss
+123 verbose request registry https://registry.npmjs.org/
+124 verbose url raw /gulp-scss
+125 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-scss' ]
+126 verbose url resolved https://registry.npmjs.org/gulp-scss
+127 verbose request where is https://registry.npmjs.org/gulp-scss
+128 info trying registry request attempt 1 at 20:13:48
+129 http GET https://registry.npmjs.org/gulp-scss
+130 verbose request where is /gulp
+131 verbose request registry https://registry.npmjs.org/
+132 verbose url raw /gulp
+133 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+134 verbose url resolved https://registry.npmjs.org/gulp
+135 verbose request where is https://registry.npmjs.org/gulp
+136 info trying registry request attempt 1 at 20:13:48
+137 verbose etag "47EAKHOYUYIOLMGI3QFMG2RXB"
+138 http GET https://registry.npmjs.org/gulp
+139 verbose request where is /gulp-uglify
+140 verbose request registry https://registry.npmjs.org/
+141 verbose url raw /gulp-uglify
+142 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+143 verbose url resolved https://registry.npmjs.org/gulp-uglify
+144 verbose request where is https://registry.npmjs.org/gulp-uglify
+145 info trying registry request attempt 1 at 20:13:48
+146 verbose etag "5KZQJU5A4DWHHVUSL5545JCGN"
+147 http GET https://registry.npmjs.org/gulp-uglify
+148 verbose request where is /literalify
+149 verbose request registry https://registry.npmjs.org/
+150 verbose url raw /literalify
+151 verbose url resolving [ 'https://registry.npmjs.org/', './literalify' ]
+152 verbose url resolved https://registry.npmjs.org/literalify
+153 verbose request where is https://registry.npmjs.org/literalify
+154 info trying registry request attempt 1 at 20:13:48
+155 verbose etag "DD81VL9TF1N3AA4YTATKMBVID"
+156 http GET https://registry.npmjs.org/literalify
+157 verbose request where is /gulp-minify-css
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /gulp-minify-css
+160 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-css' ]
+161 verbose url resolved https://registry.npmjs.org/gulp-minify-css
+162 verbose request where is https://registry.npmjs.org/gulp-minify-css
+163 info trying registry request attempt 1 at 20:13:48
+164 verbose etag "3MXMWONH4HH6L9NQCY3S9UTIL"
+165 http GET https://registry.npmjs.org/gulp-minify-css
+166 verbose request where is /gulp-browserify
+167 verbose request registry https://registry.npmjs.org/
+168 verbose url raw /gulp-browserify
+169 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-browserify' ]
+170 verbose url resolved https://registry.npmjs.org/gulp-browserify
+171 verbose request where is https://registry.npmjs.org/gulp-browserify
+172 info trying registry request attempt 1 at 20:13:48
+173 verbose etag "BR36FDKS7DZWZB06TDOK48JQI"
+174 http GET https://registry.npmjs.org/gulp-browserify
+175 verbose request where is /gulp-concat
+176 verbose request registry https://registry.npmjs.org/
+177 verbose url raw /gulp-concat
+178 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+179 verbose url resolved https://registry.npmjs.org/gulp-concat
+180 verbose request where is https://registry.npmjs.org/gulp-concat
+181 info trying registry request attempt 1 at 20:13:48
+182 verbose etag "ECV4QCK20QJ4GJP4VVSQQFMS6"
+183 http GET https://registry.npmjs.org/gulp-concat
+184 verbose request where is /browserify
+185 verbose request registry https://registry.npmjs.org/
+186 verbose url raw /browserify
+187 verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+188 verbose url resolved https://registry.npmjs.org/browserify
+189 verbose request where is https://registry.npmjs.org/browserify
+190 info trying registry request attempt 1 at 20:13:49
+191 verbose etag "804ZF4OXL8AJMAZ7NQ5AS32RK"
+192 http GET https://registry.npmjs.org/browserify
+193 http 304 https://registry.npmjs.org/gulp-uglify
+194 silly registry.get cb [ 304,
+194 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+194 silly registry.get     server: 'Apache',
+194 silly registry.get     via: '1.1 varnish',
+194 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+194 silly registry.get     'cache-control': 'max-age=60',
+194 silly registry.get     etag: '"5KZQJU5A4DWHHVUSL5545JCGN"',
+194 silly registry.get     age: '18',
+194 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+194 silly registry.get     'x-cache': 'HIT',
+194 silly registry.get     'x-cache-hits': '1',
+194 silly registry.get     'x-timer': 'S1422321229.580262,VS0,VE0',
+194 silly registry.get     vary: 'Accept',
+194 silly registry.get     'content-length': '0',
+194 silly registry.get     'keep-alive': 'timeout=10, max=50',
+194 silly registry.get     connection: 'Keep-Alive' } ]
+195 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+196 http 304 https://registry.npmjs.org/gulp
+197 silly registry.get cb [ 304,
+197 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+197 silly registry.get     server: 'Apache',
+197 silly registry.get     via: '1.1 varnish',
+197 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+197 silly registry.get     'cache-control': 'max-age=60',
+197 silly registry.get     etag: '"47EAKHOYUYIOLMGI3QFMG2RXB"',
+197 silly registry.get     age: '31',
+197 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+197 silly registry.get     'x-cache': 'HIT',
+197 silly registry.get     'x-cache-hits': '1',
+197 silly registry.get     'x-timer': 'S1422321229.593298,VS0,VE0',
+197 silly registry.get     vary: 'Accept',
+197 silly registry.get     'content-length': '0',
+197 silly registry.get     'keep-alive': 'timeout=10, max=50',
+197 silly registry.get     connection: 'Keep-Alive' } ]
+198 verbose etag https://registry.npmjs.org/gulp from cache
+199 http 404 https://registry.npmjs.org/gulp-sass-lint
+200 verbose headers { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+200 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+200 verbose headers   'content-type': 'application/json',
+200 verbose headers   'cache-control': 'max-age=0',
+200 verbose headers   'content-length': '52',
+200 verbose headers   'accept-ranges': 'bytes',
+200 verbose headers   via: '1.1 varnish',
+200 verbose headers   age: '0',
+200 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+200 verbose headers   'x-cache': 'MISS',
+200 verbose headers   'x-cache-hits': '0',
+200 verbose headers   'x-timer': 'S1422321229.579814,VS0,VE16',
+200 verbose headers   'keep-alive': 'timeout=10, max=50',
+200 verbose headers   connection: 'Keep-Alive' }
+201 silly registry.get cb [ 404,
+201 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+201 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+201 silly registry.get     'content-type': 'application/json',
+201 silly registry.get     'cache-control': 'max-age=0',
+201 silly registry.get     'content-length': '52',
+201 silly registry.get     'accept-ranges': 'bytes',
+201 silly registry.get     via: '1.1 varnish',
+201 silly registry.get     age: '0',
+201 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+201 silly registry.get     'x-cache': 'MISS',
+201 silly registry.get     'x-cache-hits': '0',
+201 silly registry.get     'x-timer': 'S1422321229.579814,VS0,VE16',
+201 silly registry.get     'keep-alive': 'timeout=10, max=50',
+201 silly registry.get     connection: 'Keep-Alive' } ]
+202 silly lockFile 358a3466-gulp-sass-lint gulp-sass-lint@
+203 silly lockFile 358a3466-gulp-sass-lint gulp-sass-lint@
+204 http 304 https://registry.npmjs.org/literalify
+205 silly registry.get cb [ 304,
+205 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+205 silly registry.get     server: 'Apache',
+205 silly registry.get     via: '1.1 varnish',
+205 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+205 silly registry.get     'cache-control': 'max-age=60',
+205 silly registry.get     etag: '"DD81VL9TF1N3AA4YTATKMBVID"',
+205 silly registry.get     age: '18',
+205 silly registry.get     'x-served-by': 'cache-jfk1033-JFK',
+205 silly registry.get     'x-cache': 'HIT',
+205 silly registry.get     'x-cache-hits': '1',
+205 silly registry.get     'x-timer': 'S1422321229.621497,VS0,VE0',
+205 silly registry.get     vary: 'Accept',
+205 silly registry.get     'content-length': '0',
+205 silly registry.get     'keep-alive': 'timeout=10, max=50',
+205 silly registry.get     connection: 'Keep-Alive' } ]
+206 verbose etag https://registry.npmjs.org/literalify from cache
+207 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+208 silly addNameRange versions [ 'gulp',
+208 silly addNameRange   [ '0.0.1',
+208 silly addNameRange     '0.0.2',
+208 silly addNameRange     '0.0.3',
+208 silly addNameRange     '0.0.4',
+208 silly addNameRange     '0.0.5',
+208 silly addNameRange     '0.0.7',
+208 silly addNameRange     '0.0.8',
+208 silly addNameRange     '0.0.9',
+208 silly addNameRange     '0.1.0',
+208 silly addNameRange     '0.2.0',
+208 silly addNameRange     '1.0.0',
+208 silly addNameRange     '1.1.0',
+208 silly addNameRange     '1.2.0',
+208 silly addNameRange     '1.2.1',
+208 silly addNameRange     '2.0.0',
+208 silly addNameRange     '2.0.1',
+208 silly addNameRange     '2.1.0',
+208 silly addNameRange     '2.2.0',
+208 silly addNameRange     '2.3.0',
+208 silly addNameRange     '2.4.0',
+208 silly addNameRange     '2.4.1',
+208 silly addNameRange     '2.6.0',
+208 silly addNameRange     '2.6.1',
+208 silly addNameRange     '2.7.0',
+208 silly addNameRange     '3.0.0',
+208 silly addNameRange     '3.1.1',
+208 silly addNameRange     '3.1.2',
+208 silly addNameRange     '3.1.3',
+208 silly addNameRange     '3.1.4',
+208 silly addNameRange     '3.2.0',
+208 silly addNameRange     '3.2.1',
+208 silly addNameRange     '3.2.2',
+208 silly addNameRange     '3.2.3',
+208 silly addNameRange     '3.2.4',
+208 silly addNameRange     '3.2.5',
+208 silly addNameRange     '3.3.0',
+208 silly addNameRange     '3.3.1',
+208 silly addNameRange     '3.3.2',
+208 silly addNameRange     '3.3.4',
+208 silly addNameRange     '3.4.0',
+208 silly addNameRange     '3.5.0',
+208 silly addNameRange     '3.5.1',
+208 silly addNameRange     '3.5.2',
+208 silly addNameRange     '3.5.5',
+208 silly addNameRange     '3.5.6',
+208 silly addNameRange     '3.6.0',
+208 silly addNameRange     '3.6.1',
+208 silly addNameRange     '3.6.2',
+208 silly addNameRange     '3.7.0',
+208 silly addNameRange     '3.8.0',
+208 silly addNameRange     '3.8.1',
+208 silly addNameRange     '3.8.2',
+208 silly addNameRange     '3.8.3',
+208 silly addNameRange     '3.8.4',
+208 silly addNameRange     '3.8.5',
+208 silly addNameRange     '3.8.6',
+208 silly addNameRange     '3.8.7',
+208 silly addNameRange     '3.8.8',
+208 silly addNameRange     '3.8.9',
+208 silly addNameRange     '3.8.10' ] ]
+209 verbose addNamed [ 'gulp', '3.8.10' ]
+210 verbose addNamed [ '3.8.10', '3.8.10' ]
+211 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+212 verbose lock gulp@3.8.10 /home/jack/.npm/f843d0d7-gulp-3-8-10.lock
+213 silly addNameRange number 2 { name: 'gulp-uglify', range: '*', hasData: true }
+214 silly addNameRange versions [ 'gulp-uglify',
+214 silly addNameRange   [ '0.0.1',
+214 silly addNameRange     '0.0.3',
+214 silly addNameRange     '0.0.4',
+214 silly addNameRange     '0.1.0',
+214 silly addNameRange     '0.2.0',
+214 silly addNameRange     '0.2.1',
+214 silly addNameRange     '0.3.0',
+214 silly addNameRange     '0.3.1',
+214 silly addNameRange     '0.3.2',
+214 silly addNameRange     '1.0.0-0',
+214 silly addNameRange     '1.0.0',
+214 silly addNameRange     '1.0.1',
+214 silly addNameRange     '1.0.2',
+214 silly addNameRange     '1.1.0' ] ]
+215 verbose addNamed [ 'gulp-uglify', '1.1.0' ]
+216 verbose addNamed [ '1.1.0', '1.1.0' ]
+217 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+218 verbose lock gulp-uglify@1.1.0 /home/jack/.npm/91b67821-gulp-uglify-1-1-0.lock
+219 http 304 https://registry.npmjs.org/gulp-minify-css
+220 silly registry.get cb [ 304,
+220 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+220 silly registry.get     server: 'Apache',
+220 silly registry.get     via: '1.1 varnish',
+220 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+220 silly registry.get     'cache-control': 'max-age=60',
+220 silly registry.get     etag: '"3MXMWONH4HH6L9NQCY3S9UTIL"',
+220 silly registry.get     age: '39',
+220 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+220 silly registry.get     'x-cache': 'HIT',
+220 silly registry.get     'x-cache-hits': '1',
+220 silly registry.get     'x-timer': 'S1422321229.644010,VS0,VE0',
+220 silly registry.get     vary: 'Accept',
+220 silly registry.get     'content-length': '0',
+220 silly registry.get     'keep-alive': 'timeout=10, max=49',
+220 silly registry.get     connection: 'Keep-Alive' } ]
+221 verbose etag https://registry.npmjs.org/gulp-minify-css from cache
+222 http 304 https://registry.npmjs.org/gulp-browserify
+223 silly registry.get cb [ 304,
+223 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+223 silly registry.get     server: 'Apache',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+223 silly registry.get     'cache-control': 'max-age=60',
+223 silly registry.get     etag: '"BR36FDKS7DZWZB06TDOK48JQI"',
+223 silly registry.get     age: '18',
+223 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+223 silly registry.get     'x-cache': 'HIT',
+223 silly registry.get     'x-cache-hits': '1',
+223 silly registry.get     'x-timer': 'S1422321229.654458,VS0,VE0',
+223 silly registry.get     vary: 'Accept',
+223 silly registry.get     'content-length': '0',
+223 silly registry.get     'keep-alive': 'timeout=10, max=49',
+223 silly registry.get     connection: 'Keep-Alive' } ]
+224 verbose etag https://registry.npmjs.org/gulp-browserify from cache
+225 http 304 https://registry.npmjs.org/gulp-concat
+226 silly registry.get cb [ 304,
+226 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+226 silly registry.get     server: 'Apache',
+226 silly registry.get     via: '1.1 varnish',
+226 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+226 silly registry.get     'cache-control': 'max-age=60',
+226 silly registry.get     etag: '"ECV4QCK20QJ4GJP4VVSQQFMS6"',
+226 silly registry.get     age: '18',
+226 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+226 silly registry.get     'x-cache': 'HIT',
+226 silly registry.get     'x-cache-hits': '1',
+226 silly registry.get     'x-timer': 'S1422321229.656394,VS0,VE0',
+226 silly registry.get     vary: 'Accept',
+226 silly registry.get     'content-length': '0',
+226 silly registry.get     'keep-alive': 'timeout=10, max=49',
+226 silly registry.get     connection: 'Keep-Alive' } ]
+227 verbose etag https://registry.npmjs.org/gulp-concat from cache
+228 http 404 https://registry.npmjs.org/gulp-scss
+229 verbose headers { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+229 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+229 verbose headers   'content-type': 'application/json',
+229 verbose headers   'cache-control': 'max-age=0',
+229 verbose headers   'content-length': '52',
+229 verbose headers   'accept-ranges': 'bytes',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   age: '0',
+229 verbose headers   'x-served-by': 'cache-jfk1027-JFK',
+229 verbose headers   'x-cache': 'MISS',
+229 verbose headers   'x-cache-hits': '0',
+229 verbose headers   'x-timer': 'S1422321229.582342,VS0,VE80',
+229 verbose headers   'keep-alive': 'timeout=10, max=50',
+229 verbose headers   connection: 'Keep-Alive' }
+230 silly registry.get cb [ 404,
+230 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+230 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+230 silly registry.get     'content-type': 'application/json',
+230 silly registry.get     'cache-control': 'max-age=0',
+230 silly registry.get     'content-length': '52',
+230 silly registry.get     'accept-ranges': 'bytes',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     age: '0',
+230 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+230 silly registry.get     'x-cache': 'MISS',
+230 silly registry.get     'x-cache-hits': '0',
+230 silly registry.get     'x-timer': 'S1422321229.582342,VS0,VE80',
+230 silly registry.get     'keep-alive': 'timeout=10, max=50',
+230 silly registry.get     connection: 'Keep-Alive' } ]
+231 silly lockFile 63dd1445-gulp-scss gulp-scss@
+232 silly lockFile 63dd1445-gulp-scss gulp-scss@
+233 silly addNameRange number 2 { name: 'literalify', range: '*', hasData: true }
+234 silly addNameRange versions [ 'literalify', [ '0.1.0', '0.1.1', '0.2.0', '0.3.0' ] ]
+235 verbose addNamed [ 'literalify', '0.3.0' ]
+236 verbose addNamed [ '0.3.0', '0.3.0' ]
+237 silly lockFile 7d49a8cb-literalify-0-3-0 literalify@0.3.0
+238 verbose lock literalify@0.3.0 /home/jack/.npm/7d49a8cb-literalify-0-3-0.lock
+239 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+240 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+241 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+242 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+243 http 304 https://registry.npmjs.org/browserify
+244 silly registry.get cb [ 304,
+244 silly registry.get   { date: 'Tue, 27 Jan 2015 01:13:49 GMT',
+244 silly registry.get     server: 'Apache',
+244 silly registry.get     via: '1.1 varnish',
+244 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 01:13:49 GMT',
+244 silly registry.get     'cache-control': 'max-age=60',
+244 silly registry.get     etag: '"804ZF4OXL8AJMAZ7NQ5AS32RK"',
+244 silly registry.get     age: '32',
+244 silly registry.get     'x-served-by': 'cache-jfk1033-JFK',
+244 silly registry.get     'x-cache': 'HIT',
+244 silly registry.get     'x-cache-hits': '1',
+244 silly registry.get     'x-timer': 'S1422321229.688965,VS0,VE3',
+244 silly registry.get     vary: 'Accept',
+244 silly registry.get     'content-length': '0',
+244 silly registry.get     'keep-alive': 'timeout=10, max=49',
+244 silly registry.get     connection: 'Keep-Alive' } ]
+245 verbose etag https://registry.npmjs.org/browserify from cache
+246 silly addNameRange number 2 { name: 'gulp-minify-css', range: '*', hasData: true }
+247 silly addNameRange versions [ 'gulp-minify-css',
+247 silly addNameRange   [ '0.0.1',
+247 silly addNameRange     '0.1.0',
+247 silly addNameRange     '0.2.0',
+247 silly addNameRange     '0.3.0',
+247 silly addNameRange     '0.3.1',
+247 silly addNameRange     '0.3.2',
+247 silly addNameRange     '0.3.3',
+247 silly addNameRange     '0.3.4',
+247 silly addNameRange     '0.3.5',
+247 silly addNameRange     '0.3.6',
+247 silly addNameRange     '0.3.7',
+247 silly addNameRange     '0.3.8',
+247 silly addNameRange     '0.3.9',
+247 silly addNameRange     '0.3.10',
+247 silly addNameRange     '0.3.11',
+247 silly addNameRange     '0.3.12',
+247 silly addNameRange     '0.3.13',
+247 silly addNameRange     '0.4.0',
+247 silly addNameRange     '0.4.1',
+247 silly addNameRange     '0.4.2',
+247 silly addNameRange     '0.4.3' ] ]
+248 verbose addNamed [ 'gulp-minify-css', '0.4.3' ]
+249 verbose addNamed [ '0.4.3', '0.4.3' ]
+250 silly lockFile b4d96ee3-gulp-minify-css-0-4-3 gulp-minify-css@0.4.3
+251 verbose lock gulp-minify-css@0.4.3 /home/jack/.npm/b4d96ee3-gulp-minify-css-0-4-3.lock
+252 silly addNameRange number 2 { name: 'gulp-browserify', range: '*', hasData: true }
+253 silly addNameRange versions [ 'gulp-browserify',
+253 silly addNameRange   [ '0.1.0',
+253 silly addNameRange     '0.1.1',
+253 silly addNameRange     '0.1.2',
+253 silly addNameRange     '0.2.2',
+253 silly addNameRange     '0.2.3',
+253 silly addNameRange     '0.2.4',
+253 silly addNameRange     '0.2.5',
+253 silly addNameRange     '0.2.6',
+253 silly addNameRange     '0.2.7',
+253 silly addNameRange     '0.3.0',
+253 silly addNameRange     '0.3.1',
+253 silly addNameRange     '0.3.2',
+253 silly addNameRange     '0.3.3',
+253 silly addNameRange     '0.3.4',
+253 silly addNameRange     '0.4.0',
+253 silly addNameRange     '0.4.1',
+253 silly addNameRange     '0.4.2',
+253 silly addNameRange     '0.4.3',
+253 silly addNameRange     '0.4.4',
+253 silly addNameRange     '0.4.5',
+253 silly addNameRange     '0.4.6',
+253 silly addNameRange     '0.5.0',
+253 silly addNameRange     '0.5.1' ] ]
+254 verbose addNamed [ 'gulp-browserify', '0.5.1' ]
+255 verbose addNamed [ '0.5.1', '0.5.1' ]
+256 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+257 verbose lock gulp-browserify@0.5.1 /home/jack/.npm/238d2b6c-gulp-browserify-0-5-1.lock
+258 silly lockFile 72f4391e-gulp gulp@
+259 silly lockFile 72f4391e-gulp gulp@
+260 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+261 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+262 silly addNameRange number 2 { name: 'gulp-concat', range: '*', hasData: true }
+263 silly addNameRange versions [ 'gulp-concat',
+263 silly addNameRange   [ '0.0.1',
+263 silly addNameRange     '1.0.0',
+263 silly addNameRange     '1.1.0',
+263 silly addNameRange     '2.0.0',
+263 silly addNameRange     '2.1.0',
+263 silly addNameRange     '2.1.1',
+263 silly addNameRange     '2.1.2',
+263 silly addNameRange     '2.1.3',
+263 silly addNameRange     '2.1.4',
+263 silly addNameRange     '2.1.5',
+263 silly addNameRange     '2.1.6',
+263 silly addNameRange     '2.1.7',
+263 silly addNameRange     '2.2.0',
+263 silly addNameRange     '2.3.0',
+263 silly addNameRange     '2.3.3',
+263 silly addNameRange     '2.3.4',
+263 silly addNameRange     '2.3.5',
+263 silly addNameRange     '2.4.0',
+263 silly addNameRange     '2.4.1',
+263 silly addNameRange     '2.4.2',
+263 silly addNameRange     '2.4.3' ] ]
+264 verbose addNamed [ 'gulp-concat', '2.4.3' ]
+265 verbose addNamed [ '2.4.3', '2.4.3' ]
+266 silly lockFile 07935a45-gulp-concat-2-4-3 gulp-concat@2.4.3
+267 verbose lock gulp-concat@2.4.3 /home/jack/.npm/07935a45-gulp-concat-2-4-3.lock
+268 silly lockFile 7d49a8cb-literalify-0-3-0 literalify@0.3.0
+269 silly lockFile 7d49a8cb-literalify-0-3-0 literalify@0.3.0
+270 silly lockFile 86d2ac29-literalify literalify@
+271 silly lockFile 86d2ac29-literalify literalify@
+272 silly lockFile b4d96ee3-gulp-minify-css-0-4-3 gulp-minify-css@0.4.3
+273 silly lockFile b4d96ee3-gulp-minify-css-0-4-3 gulp-minify-css@0.4.3
+274 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+275 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+276 silly addNameRange number 2 { name: 'browserify', range: '*', hasData: true }
+277 silly addNameRange versions [ 'browserify',
+277 silly addNameRange   [ '0.0.1',
+277 silly addNameRange     '0.0.2',
+277 silly addNameRange     '0.0.3',
+277 silly addNameRange     '0.0.4',
+277 silly addNameRange     '0.0.5',
+277 silly addNameRange     '0.1.0',
+277 silly addNameRange     '0.1.1',
+277 silly addNameRange     '0.1.2',
+277 silly addNameRange     '0.1.3',
+277 silly addNameRange     '0.1.4',
+277 silly addNameRange     '0.1.5',
+277 silly addNameRange     '0.2.0',
+277 silly addNameRange     '0.2.1',
+277 silly addNameRange     '0.2.2',
+277 silly addNameRange     '0.2.3',
+277 silly addNameRange     '0.2.4',
+277 silly addNameRange     '0.2.5',
+277 silly addNameRange     '0.2.6',
+277 silly addNameRange     '0.2.7',
+277 silly addNameRange     '0.2.8',
+277 silly addNameRange     '0.2.9',
+277 silly addNameRange     '0.2.10',
+277 silly addNameRange     '0.2.11',
+277 silly addNameRange     '0.3.0',
+277 silly addNameRange     '0.3.1',
+277 silly addNameRange     '0.3.2',
+277 silly addNameRange     '0.3.3',
+277 silly addNameRange     '0.3.4',
+277 silly addNameRange     '0.3.5',
+277 silly addNameRange     '0.3.6',
+277 silly addNameRange     '0.3.7',
+277 silly addNameRange     '0.4.0',
+277 silly addNameRange     '0.4.1',
+277 silly addNameRange     '0.4.2',
+277 silly addNameRange     '0.4.3',
+277 silly addNameRange     '0.4.4',
+277 silly addNameRange     '0.4.5',
+277 silly addNameRange     '0.4.6',
+277 silly addNameRange     '0.4.7',
+277 silly addNameRange     '0.4.8',
+277 silly addNameRange     '0.4.9',
+277 silly addNameRange     '0.4.10',
+277 silly addNameRange     '0.4.11',
+277 silly addNameRange     '0.4.12',
+277 silly addNameRange     '0.4.13',
+277 silly addNameRange     '0.4.14',
+277 silly addNameRange     '0.4.15',
+277 silly addNameRange     '0.5.0',
+277 silly addNameRange     '0.5.1',
+277 silly addNameRange     '0.5.2',
+277 silly addNameRange     '1.0.0',
+277 silly addNameRange     '1.1.0',
+277 silly addNameRange     '1.1.1',
+277 silly addNameRange     '1.1.2',
+277 silly addNameRange     '1.1.3',
+277 silly addNameRange     '1.1.4',
+277 silly addNameRange     '1.2.0',
+277 silly addNameRange     '1.2.1',
+277 silly addNameRange     '1.2.2',
+277 silly addNameRange     '1.2.3',
+277 silly addNameRange     '1.2.4',
+277 silly addNameRange     '1.2.5',
+277 silly addNameRange     '1.2.6',
+277 silly addNameRange     '1.2.7',
+277 silly addNameRange     '1.2.8',
+277 silly addNameRange     '1.2.9',
+277 silly addNameRange     '1.3.0',
+277 silly addNameRange     '1.4.0',
+277 silly addNameRange     '1.4.1',
+277 silly addNameRange     '1.4.2',
+277 silly addNameRange     '1.4.3',
+277 silly addNameRange     '1.4.4',
+277 silly addNameRange     '1.4.5',
+277 silly addNameRange     '1.4.6',
+277 silly addNameRange     '1.4.7',
+277 silly addNameRange     '1.4.8',
+277 silly addNameRange     '1.5.0',
+277 silly addNameRange     '1.6.0',
+277 silly addNameRange     '1.6.1',
+277 silly addNameRange     '1.7.0',
+277 silly addNameRange     '1.7.1',
+277 silly addNameRange     '1.7.2',
+277 silly addNameRange     '1.7.3',
+277 silly addNameRange     '1.7.4',
+277 silly addNameRange     '1.7.5',
+277 silly addNameRange     '1.7.6',
+277 silly addNameRange     '1.7.7',
+277 silly addNameRange     '1.8.0',
+277 silly addNameRange     '1.8.1',
+277 silly addNameRange     '1.8.2',
+277 silly addNameRange     '1.8.3',
+277 silly addNameRange     '1.9.0',
+277 silly addNameRange     '1.9.1',
+277 silly addNameRange     '1.9.2',
+277 silly addNameRange     '1.9.3',
+277 silly addNameRange     '1.9.4',
+277 silly addNameRange     '1.10.0',
+277 silly addNameRange     '1.10.1',
+277 silly addNameRange     '1.10.2',
+277 silly addNameRange     '1.10.3',
+277 silly addNameRange     '1.10.4',
+277 silly addNameRange     '1.10.5',
+277 silly addNameRange     '1.10.6',
+277 silly addNameRange     '1.10.7',
+277 silly addNameRange     '1.10.8',
+277 silly addNameRange     '1.10.9',
+277 silly addNameRange     '1.10.11',
+277 silly addNameRange     '1.10.12',
+277 silly addNameRange     '1.10.13',
+277 silly addNameRange     '1.10.14',
+277 silly addNameRange     '1.10.15',
+277 silly addNameRange     '1.10.16',
+277 silly addNameRange     '1.10.17',
+277 silly addNameRange     '1.11.0',
+277 silly addNameRange     '1.11.1',
+277 silly addNameRange     '1.12.0',
+277 silly addNameRange     '1.12.1',
+277 silly addNameRange     '1.12.2',
+277 silly addNameRange     '1.12.3',
+277 silly addNameRange     '1.13.0',
+277 silly addNameRange     '1.13.1',
+277 silly addNameRange     '1.13.2',
+277 silly addNameRange     '1.13.3',
+277 silly addNameRange     '1.13.4',
+277 silly addNameRange     '1.13.5',
+277 silly addNameRange     '1.13.6',
+277 silly addNameRange     '1.13.8',
+277 silly addNameRange     '1.13.9',
+277 silly addNameRange     '1.13.10',
+277 silly addNameRange     '1.14.0',
+277 silly addNameRange     '1.14.1',
+277 silly addNameRange     '1.14.2',
+277 silly addNameRange     '1.14.3',
+277 silly addNameRange     '1.14.4',
+277 silly addNameRange     '1.14.5',
+277 silly addNameRange     '1.15.0',
+277 silly addNameRange     '1.15.1',
+277 silly addNameRange     '1.15.2',
+277 silly addNameRange     '1.15.3',
+277 silly addNameRange     '1.15.4',
+277 silly addNameRange     '1.15.5',
+277 silly addNameRange     '1.15.6',
+277 silly addNameRange     '1.16.0',
+277 silly addNameRange     '1.16.1',
+277 silly addNameRange     '1.16.2',
+277 silly addNameRange     '1.16.3',
+277 silly addNameRange     '1.16.4',
+277 silly addNameRange     '1.16.5',
+277 silly addNameRange     '1.16.6',
+277 silly addNameRange     '1.16.7',
+277 silly addNameRange     '1.16.8',
+277 silly addNameRange     '1.17.0',
+277 silly addNameRange     '1.17.1',
+277 silly addNameRange     '1.17.2',
+277 silly addNameRange     '1.17.3',
+277 silly addNameRange     '1.18.0',
+277 silly addNameRange     '2.0.0',
+277 silly addNameRange     '2.0.1',
+277 silly addNameRange     '2.1.0',
+277 silly addNameRange     '2.2.0',
+277 silly addNameRange     '2.2.1',
+277 silly addNameRange     '2.2.2',
+277 silly addNameRange     '2.2.3',
+277 silly addNameRange     '2.2.4',
+277 silly addNameRange     '2.2.5',
+277 silly addNameRange     '2.2.6',
+277 silly addNameRange     '2.3.0',
+277 silly addNameRange     '2.3.1',
+277 silly addNameRange     '2.4.0',
+277 silly addNameRange     '2.4.1',
+277 silly addNameRange     '2.4.2',
+277 silly addNameRange     '2.4.3',
+277 silly addNameRange     '2.5.0',
+277 silly addNameRange     '2.5.1',
+277 silly addNameRange     '2.6.0',
+277 silly addNameRange     '2.6.1',
+277 silly addNameRange     '2.7.0',
+277 silly addNameRange     '2.7.1',
+277 silly addNameRange     '2.7.2',
+277 silly addNameRange     '2.7.3',
+277 silly addNameRange     '2.7.4',
+277 silly addNameRange     '2.8.0',
+277 silly addNameRange     '2.8.1',
+277 silly addNameRange     '2.9.0',
+277 silly addNameRange     '2.10.0',
+277 silly addNameRange     '2.10.1',
+277 silly addNameRange     '2.10.2',
+277 silly addNameRange     '2.11.0',
+277 silly addNameRange     '2.12.0',
+277 silly addNameRange     '2.12.1',
+277 silly addNameRange     '2.12.2',
+277 silly addNameRange     '2.12.3',
+277 silly addNameRange     '2.12.4',
+277 silly addNameRange     '2.12.5',
+277 silly addNameRange     '2.13.0',
+277 silly addNameRange     '2.13.1',
+277 silly addNameRange     '2.13.2',
+277 silly addNameRange     '2.13.3',
+277 silly addNameRange     '2.14.0',
+277 silly addNameRange     '2.14.1',
+277 silly addNameRange     '2.14.2',
+277 silly addNameRange     '2.15.0',
+277 silly addNameRange     '2.16.0',
+277 silly addNameRange     '2.17.0',
+277 silly addNameRange     '2.17.1',
+277 silly addNameRange     '2.17.2',
+277 silly addNameRange     '2.17.3',
+277 silly addNameRange     '2.17.4',
+277 silly addNameRange     '2.18.0',
+277 silly addNameRange     '2.18.1',
+277 silly addNameRange     '2.19.0',
+277 silly addNameRange     '2.20.0',
+277 silly addNameRange     '2.20.1',
+277 silly addNameRange     '2.20.2',
+277 silly addNameRange     '2.21.0',
+277 silly addNameRange     '2.22.0',
+277 silly addNameRange     '2.23.0',
+277 silly addNameRange     '2.23.1',
+277 silly addNameRange     '2.24.0',
+277 silly addNameRange     '2.24.1',
+277 silly addNameRange     '2.24.2',
+277 silly addNameRange     '2.24.3',
+277 silly addNameRange     '2.25.0',
+277 silly addNameRange     '2.25.1',
+277 silly addNameRange     '2.26.0',
+277 silly addNameRange     '2.27.0',
+277 silly addNameRange     '2.27.1',
+277 silly addNameRange     '2.28.0',
+277 silly addNameRange     '2.29.0',
+277 silly addNameRange     '2.29.1',
+277 silly addNameRange     '2.30.0',
+277 silly addNameRange     '2.31.0',
+277 silly addNameRange     '2.32.0',
+277 silly addNameRange     '2.32.1',
+277 silly addNameRange     '2.32.2',
+277 silly addNameRange     '2.32.3',
+277 silly addNameRange     '2.32.4',
+277 silly addNameRange     '2.33.0',
+277 silly addNameRange     '2.33.1',
+277 silly addNameRange     '2.34.0',
+277 silly addNameRange     '2.34.1',
+277 silly addNameRange     '2.34.2',
+277 silly addNameRange     '2.34.3',
+277 silly addNameRange     '2.35.0',
+277 silly addNameRange     '2.35.1',
+277 silly addNameRange     '2.35.2',
+277 silly addNameRange     '2.35.3',
+277 silly addNameRange     '2.35.4',
+277 silly addNameRange     '2.36.0',
+277 silly addNameRange     '2.36.1',
+277 silly addNameRange     '3.0.0',
+277 silly addNameRange     '3.1.0',
+277 silly addNameRange     '3.1.1',
+277 silly addNameRange     '3.1.2',
+277 silly addNameRange     '3.1.3',
+277 silly addNameRange     '3.2.0',
+277 silly addNameRange     '3.2.1',
+277 silly addNameRange     '3.2.2',
+277 silly addNameRange     '3.3.0',
+277 silly addNameRange     '3.4.0',
+277 silly addNameRange     '3.4.1',
+277 silly addNameRange     '3.5.0',
+277 silly addNameRange     '3.6.0',
+277 silly addNameRange     '3.7.0',
+277 silly addNameRange     '3.8.0',
+277 silly addNameRange     '3.8.1',
+277 silly addNameRange     '3.9.0',
+277 silly addNameRange     '3.9.1',
+277 silly addNameRange     '3.10.0',
+277 silly addNameRange     '3.11.0',
+277 silly addNameRange     '3.11.1',
+277 silly addNameRange     '3.12.0',
+277 silly addNameRange     '3.13.0',
+277 silly addNameRange     '3.14.0',
+277 silly addNameRange     '3.14.1',
+277 silly addNameRange     '3.16.0',
+277 silly addNameRange     '3.16.1',
+277 silly addNameRange     '3.17.0',
+277 silly addNameRange     '3.18.0',
+277 silly addNameRange     '3.19.0',
+277 silly addNameRange     '3.19.1',
+277 silly addNameRange     '3.20.0',
+277 silly addNameRange     '3.20.1',
+277 silly addNameRange     '3.20.2',
+277 silly addNameRange     '3.21.0',
+277 silly addNameRange     '3.21.1',
+277 silly addNameRange     '3.22.0',
+277 silly addNameRange     '3.22.1',
+277 silly addNameRange     '3.23.0',
+277 silly addNameRange     '3.23.1',
+277 silly addNameRange     '3.24.0',
+277 silly addNameRange     '3.24.1',
+277 silly addNameRange     '3.24.2',
+277 silly addNameRange     '3.24.3',
+277 silly addNameRange     '3.24.4',
+277 silly addNameRange     '3.24.5',
+277 silly addNameRange     '3.24.6',
+277 silly addNameRange     '3.24.7',
+277 silly addNameRange     '3.24.8',
+277 silly addNameRange     '3.24.9',
+277 silly addNameRange     '3.24.10',
+277 silly addNameRange     '3.24.11',
+277 silly addNameRange     '3.24.13',
+277 silly addNameRange     '3.25.0',
+277 silly addNameRange     '3.25.1',
+277 silly addNameRange     '3.25.2',
+277 silly addNameRange     '3.26.0',
+277 silly addNameRange     '3.27.0',
+277 silly addNameRange     '3.27.1',
+277 silly addNameRange     '3.28.0',
+277 silly addNameRange     '3.28.1',
+277 silly addNameRange     '3.28.2',
+277 silly addNameRange     '3.29.0',
+277 silly addNameRange     '3.29.1',
+277 silly addNameRange     '3.30.0',
+277 silly addNameRange     '3.30.1',
+277 silly addNameRange     '3.30.2',
+277 silly addNameRange     '3.30.3',
+277 silly addNameRange     '3.30.4',
+277 silly addNameRange     '3.31.0',
+277 silly addNameRange     '3.31.1',
+277 silly addNameRange     '3.31.2',
+277 silly addNameRange     '3.32.0',
+277 silly addNameRange     '3.32.1',
+277 silly addNameRange     '3.33.0',
+277 silly addNameRange     '3.33.1',
+277 silly addNameRange     '3.34.0',
+277 silly addNameRange     '3.35.0',
+277 silly addNameRange     '3.36.0',
+277 silly addNameRange     '3.36.1',
+277 silly addNameRange     '3.37.0',
+277 silly addNameRange     '3.37.1',
+277 silly addNameRange     '3.37.2',
+277 silly addNameRange     '3.38.0',
+277 silly addNameRange     '3.38.1',
+277 silly addNameRange     '3.39.0',
+277 silly addNameRange     '3.40.0',
+277 silly addNameRange     '3.40.1',
+277 silly addNameRange     '3.40.2',
+277 silly addNameRange     '3.40.3',
+277 silly addNameRange     '3.40.4',
+277 silly addNameRange     '3.41.0',
+277 silly addNameRange     '3.42.0',
+277 silly addNameRange     '3.43.0',
+277 silly addNameRange     '3.44.0',
+277 silly addNameRange     '3.44.1',
+277 silly addNameRange     '3.44.2',
+277 silly addNameRange     '3.45.0',
+277 silly addNameRange     '3.46.0',
+277 silly addNameRange     '3.46.1',
+277 silly addNameRange     '4.0.0',
+277 silly addNameRange     '4.1.0',
+277 silly addNameRange     '4.1.1',
+277 silly addNameRange     '4.1.2',
+277 silly addNameRange     '4.1.3',
+277 silly addNameRange     '4.1.4',
+277 silly addNameRange     '4.1.5',
+277 silly addNameRange     '4.1.6',
+277 silly addNameRange     '4.1.7',
+277 silly addNameRange     '4.1.8',
+277 silly addNameRange     '4.1.9',
+277 silly addNameRange     '4.1.10',
+277 silly addNameRange     '4.1.11',
+277 silly addNameRange     '4.2.0',
+277 silly addNameRange     '4.2.1',
+277 silly addNameRange     '4.2.2',
+277 silly addNameRange     '4.2.3',
+277 silly addNameRange     '5.0.0',
+277 silly addNameRange     '5.0.1',
+277 silly addNameRange     '5.0.2',
+277 silly addNameRange     '5.0.3',
+277 silly addNameRange     '5.0.4',
+277 silly addNameRange     '5.0.5',
+277 silly addNameRange     '5.0.6',
+277 silly addNameRange     '5.0.7',
+277 silly addNameRange     '5.0.8',
+277 silly addNameRange     '5.1.0',
+277 silly addNameRange     '5.1.1',
+277 silly addNameRange     '5.2.0',
+277 silly addNameRange     '5.2.1',
+277 silly addNameRange     '5.3.0',
+277 silly addNameRange     '5.4.0',
+277 silly addNameRange     '5.4.1',
+277 silly addNameRange     '5.4.2',
+277 silly addNameRange     '5.5.0',
+277 silly addNameRange     '5.6.0',
+277 silly addNameRange     '5.6.1',
+277 silly addNameRange     '5.7.0',
+277 silly addNameRange     '5.8.0',
+277 silly addNameRange     '5.9.0',
+277 silly addNameRange     '5.9.1',
+277 silly addNameRange     '5.9.2',
+277 silly addNameRange     '5.9.3',
+277 silly addNameRange     '5.10.0',
+277 silly addNameRange     '5.10.1',
+277 silly addNameRange     '5.11.0',
+277 silly addNameRange     '5.11.1',
+277 silly addNameRange     '5.11.2',
+277 silly addNameRange     '5.12.0',
+277 silly addNameRange     '5.12.1',
+277 silly addNameRange     '5.12.2',
+277 silly addNameRange     '5.13.0',
+277 silly addNameRange     '5.13.1',
+277 silly addNameRange     '6.0.0',
+277 silly addNameRange     '6.0.1',
+277 silly addNameRange     '6.0.2',
+277 silly addNameRange     '6.0.3',
+277 silly addNameRange     '6.1.0',
+277 silly addNameRange     '6.1.1',
+277 silly addNameRange     '6.1.2',
+277 silly addNameRange     '6.2.0',
+277 silly addNameRange     '6.3.0',
+277 silly addNameRange     '6.3.1',
+277 silly addNameRange     '6.3.2',
+277 silly addNameRange     '6.3.3',
+277 silly addNameRange     '6.3.4',
+277 silly addNameRange     '7.0.0',
+277 silly addNameRange     '7.0.1',
+277 silly addNameRange     '7.0.2',
+277 silly addNameRange     '7.0.3',
+277 silly addNameRange     '7.1.0',
+277 silly addNameRange     '8.0.0',
+277 silly addNameRange     '8.0.1',
+277 silly addNameRange     '8.0.2',
+277 silly addNameRange     '8.0.3',
+277 silly addNameRange     '8.1.0',
+277 silly addNameRange     '8.1.1' ] ]
+278 verbose addNamed [ 'browserify', '8.1.1' ]
+279 verbose addNamed [ '8.1.1', '8.1.1' ]
+280 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+281 verbose lock browserify@8.1.1 /home/jack/.npm/79682ca4-browserify-8-1-1.lock
+282 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+283 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+284 silly lockFile 07935a45-gulp-concat-2-4-3 gulp-concat@2.4.3
+285 silly lockFile 07935a45-gulp-concat-2-4-3 gulp-concat@2.4.3
+286 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+287 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+288 silly lockFile 190d832a-gulp-concat gulp-concat@
+289 silly lockFile 190d832a-gulp-concat gulp-concat@
+290 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+291 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+292 silly lockFile 80140245-browserify browserify@
+293 silly lockFile 80140245-browserify browserify@
+294 error 404 404 Not Found: gulp-sass-lint
+294 error 404
+294 error 404 'gulp-sass-lint' is not in the npm registry.
+294 error 404 You should bug the author to publish it
+294 error 404 It was specified as a dependency of 'cleveland'
+294 error 404
+294 error 404 Note that you can also install from a
+294 error 404 tarball, folder, or http url, or git url.
+295 error System Linux 3.13.0-40-generic
+296 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "browserify" "gulp-browserify" "gulp-concat" "gulp-uglify" "literalify" "gulp-scss" "gulp-sass-lint" "gulp-minify-css"
+297 error cwd /var/www/html/cleveland
+298 error node -v v0.10.35
+299 error npm -v 1.4.28
+300 error code E404
+301 verbose exit [ 1, true ]
