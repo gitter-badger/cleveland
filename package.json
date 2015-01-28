@@ -27,5 +27,11 @@
     "mocha-phantomjs": "^3.5.3",
     "phantomjs": "^1.9.13",
     "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "angular-router-browserify": "0.0.2",
+    "firebase": "^2.1.1",
+    "react": "^0.12.2",
+    "react-bootstrap": "^0.13.3"
   }
 }
