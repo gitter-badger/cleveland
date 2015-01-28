@@ -18542,39 +18542,104 @@ module.exports = require('./lib/React');
 },{"./lib/React":30}],149:[function(require,module,exports){
 var React = require('react');
 var Firebase = require('firebase');
+var Dom = React.createElement;
 
-/**
- *
- * A Component for displaying posts
- *
- *
-*/
+var Posts = require('./posts.js');
 
 module.exports = React.createClass({
-	displayName: 'Brogan',
-	items: [],
-	componentWillMount: function() {
-	var items = [];
-	  this.firebaseRef = new Firebase("https://nscleveland.firebaseio.com");
-	  this.firebaseRef.on("child_added", function(dataSnapshot) {
-	    this.items.push(dataSnapshot.val());
-	    this.setState({
-	      items: this.items
-	    });
-	  }.bind(this));
-	},
-	render: function(){
-		this.props.items.foreach(function(item){
-			console.log(item);
-		});
-		return React.createElement('div', 'null', 'Hello', this.props.items[0]);
-	}
+    displayName: "Blog",
+
+    // Set the initial state before populating with data
+    getInitialState: function() {
+        // Items needs to be accessible throughout the object
+        this.items = [];
+        return {
+            items: [],
+            text: ''
+        };
+    },
+
+    // Write the post to firebase
+    componentWillMount: function() {
+        this.firebaseRef = new Firebase("https://nscleveland.firebaseio.com/posts/");
+        this.firebaseRef.limitToLast(25).on("child_added", function(dataSnapshot) {
+
+            // Only keep track of 25 items at a time
+            if (this.items.length === 25) {
+                this.items.splice(0, 1);
+            }
+
+            this.items.push(dataSnapshot.val());
+            this.setState({
+                items: this.items
+            });
+        }.bind(this));
+    },
+
+    componentWillUnmount: function() {
+        this.firebaseRef.off();
+    },
+
+    onChange: function(e) {
+        console.log(e.target.value);
+        this.setState({
+            text: e.target.value
+        });
+    },
+
+    handleSubmit: function(e) {
+        e.preventDefault();
+        if (this.state.text && this.state.text.trim().length !== 0) {
+            this.firebaseRef.push({
+                text: this.state.text
+            });
+            this.setState({
+                text: ""
+            });
+        }
+    },
+    render: function() {
+        return (
+            Dom("div", null,
+                Dom("h3", null, "Posts"),
+                Dom(Posts, {
+                    items: this.state.items
+                }),
+                Dom("form", {
+                        onSubmit: this.handleSubmit
+                    },
+                    Dom("input", {
+                        onChange: this.onChange,
+                        value: this.state.text
+                    }),
+                    Dom("button", null, 'Add Post#' + (this.state.items.length + 1))
+                )
+            )
+        );
+    }
 });
-},{"firebase":1,"react":148}],150:[function(require,module,exports){
+
+},{"./posts.js":150,"firebase":1,"react":148}],150:[function(require,module,exports){
+var React = require('react');
+var Dom = React.createElement;
+
+module.exports = React.createClass({
+    displayName: "Posts",
+    render: function() {
+
+        //A single virtual dom list item
+        var createPost = function(itemText) {
+            return Dom("li", null, itemText);
+        };
+
+        // Map each new ite element to the list
+        return Dom("ul", null, this.props.items.map(createPost));
+    }
+});
+},{"react":148}],151:[function(require,module,exports){
 'use strict'
 var React = require('react');
-//var $ = require('jquery');
-var Posts = require('./components/posts.js');
+var Blog = require('./components/blog.js');
 
-React.render(React.createElement(Posts, {displayName: 'Jack Vial!'}), document.getElementById('display-posts'));
-},{"./components/posts.js":149,"react":148}]},{},[150])
+React.render(React.createElement(Blog, null), document.getElementById('display-posts')); 
+},{"./components/blog.js":149,"react":148}]},{},[151])

@@ -11,7 +11,10 @@ gulp.task('browserify', function () {
 
 	// Pulls in all modules recursively
 	 gulp.src('src/js/app.js')
-	.pipe(browserify({}))
+	.pipe(browserify({transform: literalify.configure({
+	    // map module names with global objects
+	    'jquery': 'window.$'
+	 })}))
 	.pipe(concat('app.js'))
 	//.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));

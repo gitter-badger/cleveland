@@ -1,30 +1,16 @@
 var React = require('react');
-var Firebase = require('firebase');
-
-/**
- *
- * A Component for displaying posts
- *
- *
-*/
+var Dom = React.createElement;
 
 module.exports = React.createClass({
-	displayName: 'Brogan',
-	items: [],
-	componentWillMount: function() {
-	var items = [];
-	  this.firebaseRef = new Firebase("https://nscleveland.firebaseio.com");
-	  this.firebaseRef.on("child_added", function(dataSnapshot) {
-	    this.items.push(dataSnapshot.val());
-	    this.setState({
-	      items: this.items
-	    });
-	  }.bind(this));
-	},
-	render: function(){
-		this.props.items.foreach(function(item){
-			console.log(item);
-		});
-		return React.createElement('div', 'null', 'Hello', this.props.items[0]);
-	}
+    displayName: "Posts",
+    render: function() {
+
+        //A single virtual dom list item
+        var createPost = function(itemText) {
+            return Dom("li", null, itemText);
+        };
+
+        // Map each new ite element to the list
+        return Dom("ul", null, this.props.items.map(createPost));
+    }
 });
