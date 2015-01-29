@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var browserify= require('gulp-browserify');
+var reactify = require('reactify');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var literalify = require('literalify');
@@ -10,11 +11,11 @@ var minifyCSS = require('gulp-minify-css');
 gulp.task('browserify', function () {
 
 	// Pulls in all modules recursively
-	 gulp.src('src/js/app.js')
-	.pipe(browserify({transform: literalify.configure({
-	    // map module names with global objects
-	    'jquery': 'window.$'
-	 })}))
+	 gulp.src('src/js/app.jsx')
+	.pipe(browserify({
+
+		transform: reactify
+	}))
 	.pipe(concat('app.js'))
 	//.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));

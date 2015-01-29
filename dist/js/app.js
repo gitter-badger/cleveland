@@ -18544,10 +18544,9 @@ var React = require('react');
 var Firebase = require('firebase');
 var Dom = React.createElement;
 
-var Posts = require('./posts.js');
+var Posts = require('./posts.jsx');
 
-module.exports = React.createClass({
-    displayName: "Blog",
+module.exports = React.createClass({displayName: "exports",
 
     // Set the initial state before populating with data
     getInitialState: function() {
@@ -18555,7 +18554,9 @@ module.exports = React.createClass({
         this.items = [];
         return {
             items: [],
+            postTitle: '',
             text: ''
+
         };
     },
 
@@ -18587,59 +18588,92 @@ module.exports = React.createClass({
         });
     },
 
+    onTitleChange: function(e) {
+        console.log(e.target.value);
+        this.setState({
+            postTitle: e.target.value
+        });
+    },
+
     handleSubmit: function(e) {
         e.preventDefault();
         if (this.state.text && this.state.text.trim().length !== 0) {
             this.firebaseRef.push({
-                text: this.state.text
+                text: this.state.text,
+                postTitle: this.state.postTitle
             });
             this.setState({
-                text: ""
+                text: "",
+                postTitle: ""
             });
         }
     },
     render: function() {
         return (
-            Dom("div", null,
-                Dom("h3", null, "Posts"),
-                Dom(Posts, {
-                    items: this.state.items
-                }),
-                Dom("form", {
-                        onSubmit: this.handleSubmit
-                    },
-                    Dom("input", {
-                        onChange: this.onChange,
-                        value: this.state.text
-                    }),
-                    Dom("button", null, 'Add Post#' + (this.state.items.length + 1))
+            React.createElement("div", null, 
+                React.createElement("h3", null, "Posts"), 
+                React.createElement(Posts, {items: this.state.items}), 
+                React.createElement("form", {onSubmit: this.handleSubmit}, 
+                    React.createElement("input", {onChange: this.onTitleChange, value: this.state.postTitle}), 
+                    React.createElement("input", {onChange: this.onChange, value: this.state.text}), 
+                    React.createElement("button", null, 'Add Post#' + (this.state.items.length + 1))
                 )
             )
         );
     }
 });
 
-},{"./posts.js":150,"firebase":1,"react":148}],150:[function(require,module,exports){
+
+},{"./posts.jsx":150,"firebase":1,"react":148}],150:[function(require,module,exports){
 var React = require('react');
 var Dom = React.createElement;
 
-module.exports = React.createClass({
-    displayName: "Posts",
+var PostHeading = React.createClass({displayName: "PostHeading",
+	render: function(){
+		return (React.createElement("h1", null, this.props.postTitle));
+	}
+});
+
+var PostBody = React.createClass({displayName: "PostBody",
+	render: function(){
+		return (React.createElement("p", null, this.props.bodyText));
+	}
+});
+
+var SinglePost = React.createClass({displayName: "SinglePost",
+	render: function(){
+		return (
+			React.createElement("li", null, 
+				React.createElement("div", null, 
+					React.createElement(PostHeading, {postTitle: this.props.postTitle}), 
+					React.createElement(PostBody, {bodyText: this.props.itemText})
+				)
+			)
+		);
+	}
+});
+
+module.exports = React.createClass({displayName: "exports",
     render: function() {
 
-        //A single virtual dom list item
-        var createPost = function(itemText) {
-            return Dom("li", null, itemText);
-        };
+    	var rows = [];
 
-        // Map each new ite element to the list
-        return Dom("ul", null, this.props.items.map(createPost));
+    	this.props.items.forEach(function (post) {
+    		console.log('this is the post:', post);
+    		rows.push(React.createElement(SinglePost, {postTitle: post.postTitle, itemText: post.text}));
+    	});
+
+        // Map each new item element to the list
+        // Accepts each item in the callback
+        return (React.createElement("ul", null, rows));
     }
 });
+
 },{"react":148}],151:[function(require,module,exports){
 'use strict'
 var React = require('react');
-var Blog = require('./components/blog.js');
+var Blog = require('./components/blog.jsx');
 
 React.render(React.createElement(Blog, null), document.getElementById('display-posts')); 
-},{"./components/blog.js":149,"react":148}]},{},[151])
+
+},{"./components/blog.jsx":149,"react":148}]},{},[151])
